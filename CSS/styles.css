@@ -1,0 +1,67 @@
+* {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background-color: orange;
+  text-align: center;
+}
+
+form#ingresos {
+  text-align: center;
+  background-color: coral;
+}
+
+form#egresos {
+  background-color: rgb(87, 145, 253);
+  text-align: center;
+}
+
+input {
+  width: 70%;
+  background-color: rgb(247, 229, 229);
+  border: none;
+  font-size: 20px;
+  height: auto;
+}
+
+button {
+  width: 20%;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 80%;
+  font-size: large;
+}
+table th {
+  width: 50%;
+}
+table tr#importeSueldo {
+  text-align: right;
+}
+table .importe {
+  text-align: right;
+}
+table .subtotales {
+  background-color: rgb(71, 71, 71);
+}
+table .detalle {
+  background-color: #ffffff;
+}
+
+tr#encabezados {
+  background-color: rgb(175, 116, 230);
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */

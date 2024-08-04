@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="/CSS/styles.css">
+
+    <title>Administrador de finanzas pruebaform</title>
+</head>
+<body>
+    <h1>Administrador de finanzas</h1>
+    <form id="ingresos" action="">
+        <label for="salario">Ingrese su salario</label>
+        <input type="text" value="0" id="salario">
+        <label for="SAC">Ingrese el SAC</label>
+        <input type="text" value="0" id="sac">
+        <label for="Billeteras">Intereses billeteras virtuales</label>
+        <input type="text" value="0" id="billeteras">
+        <label for="OtrosIngresos">Otros ingresos</label>
+        <input type="text" value="0" id="otrosingresos">
+        <button id>Aceptar</button>
+    </form>
+    <form id="egresos" action="">
+        <label for="tarjetas">Tarjata a pagar</label>
+        <input type="text" value="0" id="tarjetas">
+        <label for="impuestosyservicios">Impuestos & Servicios</label>
+        <input type="text" value="0" id="impServ">
+        <label for="Otros Gastps">Otras compras</label>
+        <input type="text" value="0" id="otrosEgresos">
+        <button>Aceptar</button>
+    </form>
+
+    <table id="resumen">
+        <tr id="encabezados">
+            <th id="detalle">Detalle</th>
+            <th>Agosto</th>
+
+        </tr>
+        <tr id="sueldo">
+            <td class="detalle" id="detalle">Sueldo</td>
+            <td id="importeSueldo" class="importe"></td>
+
+        </tr>
+        <tr id="sac">
+            <td class="detalle" id="detalle">SAC</td>
+            <td id="importeSac" class="importe"></td>
+
+        </tr>
+        <tr id="intereses">
+            <td class="detalle" id="detalle">intereses billeteras</td>
+            <td id="importeIntereses" class="importe"></td>
+        </tr>
+        <tr id="otrosingresos">
+            <td class="detalle">Otros Ingresos</td>
+            <td id="importeotrosingresos" class="importe"></td>
+    
+        </tr>
+        <tr id="totalIngresos" class="subtotales">
+            <th class="subtotales">Total Ingresos</th>
+            <td class="importe" id="SubtotalIngresos"></td>
+
+        </tr>
+        
+        <tr id="tarjetas">
+            <td class="detalle">Tarjetas de crédito</td>
+            <td id="importeTarjetas" class="importe"></td>
+
+        </tr>
+        <tr id="inpuestos">
+            <td class="detalle">Impuestos & Servicios</td>
+            <td id="ImporteIyS" class="importe"></td>
+
+        </tr>
+        <tr id="otrosegresos">
+            <td class="detalle">Otros Egresos</td>
+            <td id="ImporteOtrosEgresos" class="importe"></td>
+
+        </tr>
+        <tr id="totalEgresos" class="subtotales">
+            <th class="subtotales">Total Egresos</th>
+            <td id="ImporteTotalEgresos" class="importe"></td>
+
+        </tr>
+        <tr id="saldo">
+            <th class="detalle">Saldos</th>
+            <td id="ImporteSaldo" class="importe"></td>
+
+        </tr>
+        </table>
+
+    
+    
+<script src="JavaScript/index.js"></script>
+</body>
+</html>
