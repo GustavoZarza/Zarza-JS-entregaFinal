@@ -3,33 +3,49 @@
     margin-right: 10%;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #683646;
+    
 }
 h1{
-    background-color: orange;
+    color: #bdbb8b;
     text-align: center;
 }
+label.ingresos{
+    background-color: #f5f3eb;
+    color: #21132B;
+    font-size: 20px;
+}
+label.egresos{
+    background-color: #AA1638;
+    color: #A0A8BE;
+    font-size: 20px;
+}
+
 form#ingresos{
-
     text-align: center;
-    background-color: coral;
-
+    background-color: #f5f3eb;
+    border-radius: 60px 60px 0px 60px;   
+    margin-bottom: 15px;
 }
 form#egresos{
-    background-color: rgb(87, 145, 253);
-
-    text-align: center;    
+    border-radius: 60px 60px 0px 60px;
+    background-color: #AA1638;
+    text-align: center;
+    margin-bottom: 15px;    
 }
 
 input{
     width: 70%;
-    background-color: rgb(247, 229, 229);
+    background-color: #21132B;
+    color: #eaede2;
     border: none;
+    border-radius: 15px;
     font-size: 20px;
+    text-align: center;
     height: auto;
-    
 }
 button{
-    width: 20%;
+    width: auto;
     margin: 20px;
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -40,28 +56,30 @@ button{
 
     }
 table{
+    background-color: #21132B;
     width: 80%;
     font-size: large;
+    color:#eaede2;
     th{
+        background-color: #21132B;
         width: 50%;
     }
         tr#importeSueldo{
-        text-align: right;
+            background-color: #21132B;
+            text-align: right;
     }
     .importe{
-        text-align: right;
-    }
-    .subtotales{
-        background-color: rgb(71, 71, 71);
+        background-color: #21132B;
+        text-align: center;
     }
     .detalle{
-        background-color: #ffffff;
+        background-color: #21132B;
+    }
+    #encabezados{
+        font-size: 40px;
     }
 }
-tr#encabezados{
-    background-color: rgb(175, 116, 230);
-    font-size: 40px;
-}
+
 
 
 
