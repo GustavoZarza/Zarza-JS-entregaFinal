@@ -69,5 +69,11 @@ table {
     background-color: #21132B; }
   table #encabezados {
     font-size: 40px; }
+  table .importeSubtotalIngresos {
+    background-color: #21132B;
+    text-align: center; }
+
+div#guardarMes {
+  display: grid; }
 
 /*# sourceMappingURL=styles.css.map */

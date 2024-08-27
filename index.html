@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="CSS/styles.css">
-
-    <title>Administrador de finanzas pruebaform</title>
+    <title>Administrador de finanzas</title>
 </head>
 <body>
     <h1>Administrador de finanzas</h1>
@@ -22,7 +20,7 @@
         <button id>Aceptar</button>
     </form>
     <form id="egresos" action="">
-        <label class="egresos" for="tarjetas">Tarjata a pagar</label>
+        <label class="egresos" for="tarjetas">Tarjeta a pagar</label>
         <input type="text" value="0" id="tarjetas">
         <label class="egresos" for="impuestosyservicios">Impuestos & Servicios</label>
         <input type="text" value="0" id="impServ">
@@ -58,7 +56,7 @@
         </tr>
         <tr id="totalIngresos" class="subtotales">
             <th class="subtotales">Total Ingresos</th>
-            <td class="importe" id="SubtotalIngresos"></td>
+            <td class="importeSubtotalIngresos" id="ImporteSubtotalIngresos"></td>
 
         </tr>
         
@@ -88,9 +86,11 @@
 
         </tr>
         </table>
-
-    
-    
-<script src="JavaScript/index.js"></script>
+    <div id="guardarMes">
+        <button id="botonGuardar">Guardar Mes</button>
+    </div>
+        <script src="http://scurker.github.io/currency.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="JavaScript/index.js"></script>
 </body>
 </html>
