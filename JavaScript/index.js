@@ -133,7 +133,7 @@ botonGuardar.addEventListener("click", ()=>{
             title: "Excelente!",
             text: "Pudiste ahorrar " + saldos.toLocaleString("es-AR", monedaPesos) + " lo que equivale a " + saldoendolar.toLocaleString("en-US", monedaDolar) + " dólares", 
             color: 	"#FFFFFF",
-            imageUrl: "../img/PudisteAhorrar.jpg",
+            imageUrl: "./img/PudisteAhorrar.jpg",
             imageWidth: 400,
             imageHeight: 200,
             imageAlt: "Pudiste ahorrar",
@@ -145,7 +145,7 @@ botonGuardar.addEventListener("click", ()=>{
             title: "Oohh nooo!",
             
             text: "Quedaste debiendo $" + saldos.toLocaleString("es-AR", monedaPesos),
-            imageUrl: "../img/noPudisteAhorrar.jpg",
+            imageUrl: "./img/noPudisteAhorrar.jpg",
             color: 	"#FFFFFF",
             imageWidth: 400,
             imageHeight: 200,
